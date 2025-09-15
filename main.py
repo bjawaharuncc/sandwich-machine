@@ -1,4 +1,4 @@
-# Data
+
 recipes = {
     "small": {
         "ingredients": {
@@ -33,7 +33,7 @@ resources = {
 }
 
 
-### Complete functions ###
+
 class SandwichMachine:
 
     def __init__(self, machine_resources):
@@ -80,7 +80,7 @@ class SandwichMachine:
         print(f"{sandwich_size} sandwich is ready. Bon appetit!")
 
 
-### Make an instance of SandwichMachine class and write the rest of the codes ###
+
 machine = SandwichMachine(resources)
 
 while True:
