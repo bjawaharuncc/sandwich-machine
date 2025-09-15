@@ -32,7 +32,7 @@ resources = {
     "cheese": 24,  ## ounces
 }
 
-
+#The dictionaries for these choices will be indexed in the loop
 
 class SandwichMachine:
 
