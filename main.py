@@ -84,6 +84,7 @@ class SandwichMachine:
 machine = SandwichMachine(resources)
 
 while True:
+    #first and only prompt
     choice = input("What would you like? (small/medium/large/report/off): ").lower()
 
     if choice == "off":
